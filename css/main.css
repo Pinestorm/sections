@@ -1,7 +1,48 @@
 html {
   box-sizing: border-box;
+  background-color: #eee9de;
+  line-height: 1.5;
+  font-family: "Lato", sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+body {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  border: 3px solid #333;
+  border-radius: 4px;
+  padding: .4em .75em .5em;
+}
+
+div a:hover {
+  background-color: #666;
+  color: #eee9de;
+}
+
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+div {
+  display: inline-block;
+  text-align: left;
+  max-width: 25em;
+  vertical-align: middle;
+  padding: 1em;
 }
